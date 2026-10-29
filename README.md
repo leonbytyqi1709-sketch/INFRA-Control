@@ -37,7 +37,7 @@ React, TypeScript, Vite, Tailwind CSS, Lucide und Recharts im Frontend; Node.js/
 
 ## Vercel-Demo
 
-Repository importieren, **Root Directory `frontend`**, Framework Vite, Install `npm ci`, Build `npm run build`, Output `dist`. Keine Umgebungsvariablen und keine internen Zugangsdaten anlegen. `frontend/vercel.json` enthält den SPA-Fallback. Deployment selbst wurde nicht veröffentlicht.
+Repository importieren und **Root Directory auf dem Repository-Hauptverzeichnis belassen** (leer bzw. `.`). Die `vercel.json` im Hauptverzeichnis legt Installation, Build und Ausgabe `frontend/dist` fest. Alternativ funktioniert weiterhin Root Directory `frontend` mit Framework Vite, Install `npm ci`, Build `npm run build`, Output `dist`. Vorhandene manuelle Build-/Output-Overrides in Vercel müssen zum gewählten Root Directory passen. Nach Änderungen ein neues Deployment auslösen. Keine Umgebungsvariablen und keine internen Zugangsdaten anlegen. `frontend/vercel.json` enthält den SPA-Fallback. Deployment selbst wurde nicht veröffentlicht.
 
 ## Interner Ubuntu-Betrieb
 
