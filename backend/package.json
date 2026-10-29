@@ -1,0 +1,17 @@
+{
+    "name": "infracontrol-backend",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Backend for Project InfraControl",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
+    }
+}
